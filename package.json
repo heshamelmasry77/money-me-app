@@ -31,7 +31,6 @@
     "eslint-config-xo-space": "^0.15.0",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-angular": "^1.6.1",
-    "express": "^4.15.4",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "gulp": "gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
     "gulp-angular-filesort": "^1.1.1",
