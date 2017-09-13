@@ -9,6 +9,6 @@ module.exports = function () {
       ]
     },
     open: true,
-    port: process.env.PORT
+    port: process.env.PORT || 5000
   };
 };
