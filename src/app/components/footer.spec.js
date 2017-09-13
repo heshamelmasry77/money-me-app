@@ -5,7 +5,7 @@ var footer = require('./footer');
 describe('footer component', function () {
   beforeEach(function () {
     angular
-      .module('fountainFooter', ['app/footer.html'])
+      .module('fountainFooter', ['app/components/footer.html'])
       .component('fountainFooter', footer);
     angular.mock.module('fountainFooter');
   });

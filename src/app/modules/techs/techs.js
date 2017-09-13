@@ -8,7 +8,7 @@ function TechsController($http) {
   var vm = this;
 
   $http
-    .get('app/techs/techs.json')
+    .get('app/modules/techs/techs.json')
     .then(function (response) {
       vm.techs = response.data;
     });

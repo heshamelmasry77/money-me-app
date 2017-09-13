@@ -5,7 +5,7 @@ var main = require('./main');
 describe('main component', function () {
   beforeEach(function () {
     angular
-      .module('app', ['app/main.html'])
+      .module('app', ['app/modules/main/main.html'])
       .component('app', main);
     angular.mock.module('app');
   });

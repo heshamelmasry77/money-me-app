@@ -5,7 +5,7 @@ var tech = require('./tech');
 describe('tech component', function () {
   beforeEach(function () {
     angular
-      .module('fountainTech', ['app/techs/tech.html'])
+      .module('fountainTech', ['app/modules/techs/tech.html'])
       .component('fountainTech', tech);
     angular.mock.module('fountainTech');
   });
