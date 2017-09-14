@@ -1,11 +1,31 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Roboto:300,400,500,700');
+
 html, body, #root {
   margin: 0;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body, h1, h2, h3 {
   font-weight: 300
+}
+
+body {
+  &:after {
+    content: "";
+    background: url(/assets/images/bg.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: grayscale(0.1); /* Old WebKit */
+    filter: grayscale(0.1);
+  }
 }
 
 a {
@@ -22,6 +42,7 @@ a {
   flex-direction: column;
   min-height: 100%;
 }
+
 .main {
   flex: 1;
   display: flex;
@@ -33,11 +54,13 @@ a {
   align-items: center;
   background-color: #1f1f1f;
 }
+
 .header-title {
   flex: 1;
   font-size: 1.5rem;
   margin: 1rem;
 }
+
 .header-date {
   flex: 1;
   text-align: right;
@@ -53,17 +76,20 @@ a {
   background-color: #cf4646;
   color: white;
 }
+
 .title-h1 {
   font-weight: 300;
   font-size: 4rem;
   margin: 1rem;
 }
+
 .title-logo {
   height: 12rem;
   background-color: white;
   border-radius: 1rem;
   margin: 1rem;
 }
+
 .title-h2 {
   font-weight: 300;
   font-size: 2rem;
@@ -71,20 +97,90 @@ a {
 }
 
 .footer {
-  padding: 0.5rem;
-  font-size: 1rem;
-  background-color: #1f1f1f;
-  text-align: center;
-  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0 18px 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+  color: #666666;
+  transition: padding-left 0.5s ease;
+  @media (max-width: 922px) {
+    position: relative;
+    height: auto;
+    background-color: #11100e;
+    padding-bottom: 30px;
+  }
+
+  nav {
+    height: 100%;
+    width: auto;
+    ul {
+      margin: 30px 0 0 0;
+    }
+    li, ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: inline-block;
+      color: #ffffff;
+      margin: 0 5px 0 5px;
+      font-weight: 200;
+      font-size: 16px;
+    }
+  }
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+    &.active {
+      text-decoration: underline;
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  .credits {
+    p {
+      font-size: 16px;
+      font-weight: 200;
+      color: #ffffff;
+      margin-top: 23px;
+      @media (max-width: 922px) {
+        margin: 0;
+        text-align: center;
+      }
+      span {
+        color: #f44336;
+        font-size: 26px;
+      }
+    }
+  }
+  .copyrights {
+    h2 {
+      color: #ffffff;
+      font-weight: 200;
+      margin-top: 12px;
+    }
+  }
 }
 
 .techs-container {
   margin: 1rem;
 }
+
 .techs-h2 {
   font-weight: 300;
   font-size: 1.5rem;
 }
+
 .techs {
   display: flex;
   flex-direction: row;
@@ -100,12 +196,14 @@ a {
   margin: 1rem;
   padding: 1rem;
 }
+
 .tech-logo {
   width: 5rem;
   height: 5rem;
   float: right;
   margin: 0 0 .5rem .5rem;
 }
+
 .tech-h3 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
