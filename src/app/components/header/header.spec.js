@@ -5,7 +5,7 @@ var header = require('./header');
 describe('header component', function () {
   beforeEach(function () {
     angular
-      .module('fountainHeader', ['app/components/header.html'])
+      .module('fountainHeader', ['app/components/header/header.html'])
       .component('fountainHeader', header);
     angular.mock.module('fountainHeader');
   });
