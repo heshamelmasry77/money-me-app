@@ -13,5 +13,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   .state('techs', {
     url: '/techs',
     component: 'fountainTechs'
+  })
+  .state('auth', {
+    url: '/auth',
+    component: 'fountainAuth'
+  })
+  .state('details', {
+    url: '/details',
+    component: 'fountainDetails'
   });
 }
