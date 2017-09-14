@@ -195,13 +195,7 @@ a {
   font-size: 13px;
   color: #666666;
   transition: padding-left 0.5s ease;
-  @media (max-width: 922px) {
-    position: relative;
-    height: auto;
-    background-color: #11100e;
-    padding-bottom: 30px;
-  }
-
+  
   nav {
     height: 100%;
     width: auto;
