@@ -1,10 +1,11 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Roboto:300,400,500,700');
 
-html, body, #root {
+html, body {
   margin: 0;
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 body, h1, h2, h3 {
@@ -78,6 +79,125 @@ a {
       text-decoration: none;
     }
   }
+  * {
+    box-sizing: border-box;
+  }
+  /* Advanced Checkbox Hack */
+  body {
+    -webkit-animation: bugfix infinite 1s;
+  }
+  @-webkit-keyframes bugfix {
+    from {
+      padding: 0;
+    }
+    to {
+      padding: 0;
+    }
+  }
+
+  input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  label {
+    display: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  /* custom-dropdown */
+  nav[role="custom-dropdown"] {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.45);
+    a {
+      &:hover {
+        background: #fff;
+        color: #525659;
+        border-radius: 7px;
+        text-decoration: none;
+      }
+      &.active {
+        background: #fff;
+        color: #525659;
+        border-radius: 7px;
+        text-decoration: none;
+      }
+    }
+    a,
+    label {
+      padding: 5px;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 1.4em;
+      transition: color .3s ease-in-out;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0 auto;
+      width: 100%;
+      list-style: none;
+      text-align: center;
+
+      > li {
+        display: inline-block;
+        padding: .55em .55em;
+        text-align: center;
+        cursor: pointer;
+
+      }
+    }
+  }
+
+  /* small screens */
+  @media screen and (max-width: 44em) {
+    html,
+    body {
+      margin: 0;
+    }
+
+    nav[role="custom-dropdown"] {
+      ul {
+        display: none;
+        height: 100%;
+      }
+
+      label {
+        position: relative;
+        display: block;
+        width: 100%;
+        min-height: 2.25em;
+        padding: .45em;
+        font-size: 1.1em;
+        margin: 0;
+        border: .15em solid rgba(60, 60, 60, .2);
+      }
+      label:after {
+        position: absolute;
+        right: .25em;
+        top: -0.2em;
+        content: "\2261";
+        font-size: 1.8em;
+      }
+
+      input[type=checkbox]:checked ~ label:after {
+        color: #222;
+      }
+
+      input[type=checkbox]:checked ~ ul {
+        display: block;
+
+        > li {
+          width: 100%;
+          opacity: .8;
+          text-align: left;
+        }
+      }
+    }
+  }
 }
 
 .footer {
@@ -147,41 +267,4 @@ a {
       margin-top: 12px;
     }
   }
-}
-
-.techs-container {
-  margin: 1rem;
-}
-
-.techs-h2 {
-  font-weight: 300;
-  font-size: 1.5rem;
-}
-
-.techs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.tech {
-  height: 15rem;
-  width: 15rem;
-  border: 1px solid lightgray;
-  border-radius: 1rem;
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.tech-logo {
-  width: 5rem;
-  height: 5rem;
-  float: right;
-  margin: 0 0 .5rem .5rem;
-}
-
-.tech-h3 {
-  font-size: 1.5rem;
-  margin: 0 0 2rem 0;
 }
