@@ -52,10 +52,10 @@ a {
 .header {
   font-family: "Josefin Sans", sans-serif;
   background-color: #232322;
-  position: fixed;
+  position: sticky;
   z-index: 904;
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
-  height: 90px;
+  height: 100%;
   width: 100%;
   padding: 0;
   text-align: center;
@@ -78,35 +78,6 @@ a {
       text-decoration: none;
     }
   }
-}
-
-
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  background-color: #cf4646;
-  color: white;
-}
-
-.title-h1 {
-  font-weight: 300;
-  font-size: 4rem;
-  margin: 1rem;
-}
-
-.title-logo {
-  height: 12rem;
-  background-color: white;
-  border-radius: 1rem;
-  margin: 1rem;
-}
-
-.title-h2 {
-  font-weight: 300;
-  font-size: 2rem;
-  margin: .5rem;
 }
 
 .footer {
