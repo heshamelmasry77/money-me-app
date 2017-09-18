@@ -1,7 +1,7 @@
 var angular = require('angular');
 
-var details = require('./details');
-require('./details_styles.scss');
+var details = require('./controllers/details');
+require('./styles/details_styles.scss');
 
 var detailsModule = 'details';
 

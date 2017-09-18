@@ -1,5 +1,5 @@
 module.exports = {
-  template: require('./details.html'),
+  template: require('../views/details.html'),
   controller: DetailsController
 };
 
