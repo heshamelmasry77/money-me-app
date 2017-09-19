@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af405e0b-e0a0-442a-bca1-7c4bb4a3e89d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modules/details/controllers/TopBitCoinMiningController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modules/details/styles/top_bitcoin_mining_styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modules/details/views/top-bitcoin-mining.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/modules/details/controllers/details.js" afterPath="$PROJECT_DIR$/src/app/modules/details/controllers/WeeklyPayoutsController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/modules/details/styles/details_styles.scss" afterPath="$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/modules/details/views/details.html" afterPath="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/header.html" afterPath="$PROJECT_DIR$/src/app/components/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/modules/details/index.js" afterPath="$PROJECT_DIR$/src/app/modules/details/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss" afterPath="$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" afterPath="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/modules/main/main.html" afterPath="$PROJECT_DIR$/src/app/modules/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -51,21 +43,22 @@
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="205" column="12" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
-                <element signature="e#848#3632#0" expanded="false" />
-                <element signature="e#4916#5312#0" expanded="false" />
+                <element signature="e#688#3472#0" expanded="false" />
+                <element signature="e#3482#4747#0" expanded="false" />
+                <element signature="e#4756#5152#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/modules/main/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/modules/main/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +77,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/modules/details/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="138">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -105,17 +98,17 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weekly-payouts.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="weekly-payouts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="189">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -124,8 +117,8 @@
       <file leaf-file-name="weekly_payouts_styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="-166">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -135,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -172,6 +165,7 @@
       <find>head</find>
       <find>header</find>
       <find>details</find>
+      <find>.details</find>
       <find>detailsdetails</find>
       <find>footer</find>
     </findStrings>
@@ -217,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/app/modules/details/views/details.html" />
         <option value="$PROJECT_DIR$/src/app/modules/details/controllers/detailsController.js" />
         <option value="$PROJECT_DIR$/src/app/modules/details/controllers/weeklyPayoutsController.js" />
-        <option value="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" />
         <option value="$PROJECT_DIR$/src/app/modules/details/controllers/WeeklyPayoutsController.js" />
         <option value="$PROJECT_DIR$/src/app/modules/details/controllers/TopBitcoinMiningController.js" />
         <option value="$PROJECT_DIR$/src/app/modules/details/views/top-bitcoin-mining.html" />
@@ -226,8 +219,10 @@
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/app/modules/details/controllers/TopBitCoinMiningController.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/app/modules/main/main.html" />
+        <option value="$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" />
       </list>
     </option>
   </component>
@@ -248,7 +243,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -414,12 +409,12 @@
       <workItem from="1505309342813" duration="4409000" />
       <workItem from="1505402481307" duration="1280000" />
       <workItem from="1505734257855" duration="505000" />
-      <workItem from="1505764900904" duration="12306000" />
+      <workItem from="1505764900904" duration="14227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35465000" />
+    <option name="totallyTimeSpent" value="37386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -781,7 +776,7 @@
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -789,7 +784,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -802,61 +797,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/details/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/modules/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/modules/details/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="138">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="205" column="12" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding>
-            <element signature="e#848#3632#0" expanded="false" />
-            <element signature="e#4916#5312#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#688#3472#0" expanded="false" />
+            <element signature="e#3482#4747#0" expanded="false" />
+            <element signature="e#4756#5152#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/modules/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
