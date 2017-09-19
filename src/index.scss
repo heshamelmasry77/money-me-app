@@ -8,10 +8,11 @@ html, body {
   width: 100%;
   color: #404040;
 }
+
 body, h1, h2, h3 {
-   font-weight: 300;
-   font-family: "Josefin Sans", sans-serif;
- }
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
 
 body {
   overflow: hidden;
@@ -27,7 +28,7 @@ body {
     right: 0;
     position: absolute;
     z-index: -1;
-    -webkit-filter: grayscale(0.8); /* Old WebKit */
+    -webkit-filter: grayscale(80%);
     filter: grayscale(0.8);
   }
 }
@@ -46,9 +47,10 @@ a {
   display: flex;
   flex-direction: column;
 }
+
 .page-content {
   flex: 1 1 auto;
-  position: relative;/* need this to position inner content */
+  position: relative; /* need this to position inner content */
   overflow-y: auto;
 }
 
