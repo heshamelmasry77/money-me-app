@@ -1,16 +1,22 @@
 <!doctype html>
 <html>
-  <head>
-    <base href="/">
-    <meta charset="utf-8">
-    <title>MoneyMe</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="http://fountainjs.io/assets/imgs/fountain.png" />
-  </head>
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <title>MoneyMe</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="http://fountainjs.io/assets/imgs/fountain.png"/>
+</head>
 
-  <body ng-app="app">
+<body ng-app="app">
+<div class="page">
+  <fountain-header></fountain-header>
+  <div class="page-content">
     <ui-view></ui-view>
+  </div>
+  <fountain-footer></fountain-footer>
+</div>
 
-  </body>
+</body>
 </html>

@@ -8,13 +8,14 @@ html, body {
   width: 100%;
   color: #404040;
 }
-
 body, h1, h2, h3 {
-  font-weight: 300;
-  font-family: "Josefin Sans", sans-serif;
-}
+   font-weight: 300;
+   font-family: "Josefin Sans", sans-serif;
+ }
 
 body {
+  overflow: hidden;
+
   &:after {
     content: "";
     background: url(/assets/images/bg.jpg) no-repeat center center;
@@ -40,25 +41,23 @@ a {
   }
 }
 
-.main-container {
+.page {
+  height: 100%; /* needed for proper layout */
   display: flex;
   flex-direction: column;
-  min-height: 100%;
 }
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+.page-content {
+  flex: 1 1 auto;
+  position: relative;/* need this to position inner content */
+  overflow-y: auto;
 }
 
 .header {
+  flex: 0 0 auto;
   font-family: "Josefin Sans", sans-serif;
   background-color: #232322;
-  position: sticky;
   z-index: 904;
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
-  height: 100%;
   width: 100%;
   padding: 0;
   text-align: center;
@@ -194,6 +193,7 @@ a {
         background-color: rgba(41, 43, 44, 0.65);
         position: absolute;
         height: 126px;
+        z-index: 10;
         > li {
           width: 100%;
           opacity: .8;
@@ -205,12 +205,10 @@ a {
 }
 
 .footer {
+  flex: 0 0 auto;
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 18px 0;
   width: 100%;
-  position: relative;
-  display: block;
-  bottom: 0;
   background-color: #232322;
   font-size: 13px;
   color: #666666;
