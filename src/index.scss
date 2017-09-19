@@ -6,9 +6,12 @@ html, body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   color: #404040;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 
+=======
+>>>>>>> parent of 5200d5d... Adding fixed sticky footer, adding header to be shared on all the pages
 }
 
 body, h1, h2, h3 {
@@ -17,10 +20,27 @@ body, h1, h2, h3 {
 }
 
 body {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   background: url(/assets/images/bg.jpg) no-repeat center center;
   background-size: cover;
+=======
+  &:after {
+    content: "";
+    background: url(/assets/images/bg.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: grayscale(0.8); /* Old WebKit */
+    filter: grayscale(0.8);
+  }
+>>>>>>> parent of 5200d5d... Adding fixed sticky footer, adding header to be shared on all the pages
 }
 
 a {
@@ -32,19 +52,34 @@ a {
   }
 }
 
+<<<<<<< HEAD
 .content {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
 }
 
+=======
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+>>>>>>> parent of 5200d5d... Adding fixed sticky footer, adding header to be shared on all the pages
 .header {
   font-family: "Josefin Sans", sans-serif;
   background-color: #232322;
   position: sticky;
   z-index: 904;
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
-  height: auto;
+  height: 100%;
   width: 100%;
   padding: 0;
   text-align: center;
@@ -191,11 +226,12 @@ a {
 }
 
 .footer {
-  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 18px 0;
   width: 100%;
-  height: auto;
+  position: relative;
+  display: block;
+  bottom: 0;
   background-color: #232322;
   font-size: 13px;
   color: #666666;
