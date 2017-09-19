@@ -8,7 +8,7 @@ var routesConfig = require('./routes');
 
 var main = require('./app/modules/main/main');
 var header = require('./app/components/header/header');
-var title = require('./app/components/title');
+var title = require('./app/components/title/title');
 var footer = require('./app/components/footer/footer');
 
 require('./index.scss');

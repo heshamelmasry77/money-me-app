@@ -6,6 +6,7 @@ html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   width: 100%;
+  color: #404040;
 }
 
 body, h1, h2, h3 {
@@ -25,8 +26,8 @@ body {
     right: 0;
     position: absolute;
     z-index: -1;
-    -webkit-filter: grayscale(0.1); /* Old WebKit */
-    filter: grayscale(0.1);
+    -webkit-filter: grayscale(0.8); /* Old WebKit */
+    filter: grayscale(0.8);
   }
 }
 
@@ -190,7 +191,9 @@ a {
 
       input[type=checkbox]:checked ~ ul {
         display: block;
-
+        background-color: rgba(41, 43, 44, 0.65);
+        position: absolute;
+        height: 126px;
         > li {
           width: 100%;
           opacity: .8;
@@ -205,10 +208,10 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 18px 0;
   width: 100%;
-  position: absolute;
+  position: relative;
   display: block;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: #232322;
   font-size: 13px;
   color: #666666;
   transition: padding-left 0.5s ease;
@@ -279,7 +282,7 @@ a {
   color: #ffffff;
   line-height: normal;
   margin-top: 5%;
-  h1,h2 {
+  h1, h2 {
     margin: auto;
     text-align: center;
   }
