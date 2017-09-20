@@ -63,20 +63,28 @@ a {
       border-radius: 7px;
       width: max-content;
       a.nav-link {
+        vertical-align: middle;
         color: #ccc;
         text-decoration: none;
         font-size: 1em;
-        padding: 0.2em;
+        padding: 0.2em 0.5em;
+        font-weight: bold;
+        -webkit-font-smoothing: antialiased;
       }
       &.active {
         background: #fff;
-        color: #525659;
         text-decoration: none;
+        a{
+          color: #525659;
+
+        }
       }
       &:hover {
         background: #fff;
-        color: #525659;
         text-decoration: none;
+        a{
+          color: #525659;
+        }
       }
     }
   }
