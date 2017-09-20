@@ -50,6 +50,25 @@ header {
   }
 }
 
+main {
+  .home {
+    &:after {
+      content: "";
+      background: url(/assets/images/bg.jpg) no-repeat center center;
+      background-size: cover;
+      opacity: 0.8;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      -webkit-filter: grayscale(0.8); /* Old WebKit */
+      filter: grayscale(0.8);
+    }
+  }
+}
+
 footer {
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 18px 0;
@@ -104,7 +123,7 @@ footer {
       span {
         color: #f44336;
         font-size: 26px;
-        &:nth-last-child(1){
+        &:nth-last-child(1) {
           font-size: 16px;
           color: #ffffff;
         }

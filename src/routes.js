@@ -18,8 +18,8 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     url: '/auth',
     component: 'fountainAuth'
   })
-  .state('details', {
-    url: '/details',
-    component: 'fountainDetails'
+  .state('topBitcoinMining', {
+    url: '/top-bitcoin-mining',
+    component: 'fountainTopBitcoinMining'
   });
 }
