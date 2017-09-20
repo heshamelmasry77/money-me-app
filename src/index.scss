@@ -3,7 +3,6 @@
 
 html, body {
   margin: 0;
-  height: 100%;
   font-family: 'Roboto', sans-serif;
   width: 100%;
   color: #404040;
@@ -14,54 +13,18 @@ body, h1, h2, h3 {
   font-family: "Josefin Sans", sans-serif;
 }
 
-body {
-  overflow: hidden;
-
-  &:after {
-    content: "";
-    background: url(/assets/images/bg.jpg) no-repeat center center;
-    background-size: cover;
-    opacity: 0.8;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
-    filter: gray; /* IE6-9 */
-    filter: grayscale(70%);
-    -webkit-filter: grayscale(70%);
-    -moz-filter: grayscale(70%);
-  }
-}
-
 a {
   color: white;
   text-decoration: none;
 
   &:hover {
-    color: #5aadbb;
+    color: #666666;
   }
 }
 
-.page {
-  height: 100%; /* needed for proper layout */
-  display: flex;
-  flex-direction: column;
-}
-
-.page-content {
-  flex: 1 1 auto;
-  position: relative; /* need this to position inner content */
-  overflow-y: auto;
-}
-
-.header {
-  flex: 0 0 auto;
+header {
   font-family: "Josefin Sans", sans-serif;
   background-color: #232322;
-  z-index: 904;
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 0;
@@ -85,138 +48,14 @@ a {
       text-decoration: none;
     }
   }
-  * {
-    box-sizing: border-box;
-  }
-  /* Advanced Checkbox Hack */
-  body {
-    -webkit-animation: bugfix infinite 1s;
-  }
-  @-webkit-keyframes bugfix {
-    from {
-      padding: 0;
-    }
-    to {
-      padding: 0;
-    }
-  }
-
-  input[type=checkbox] {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  label {
-    display: none;
-    cursor: pointer;
-    user-select: none;
-  }
-  /* custom-dropdown */
-  nav[role="custom-dropdown"] {
-    position: relative;
-    width: 100%;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.45);
-    a {
-      &:hover {
-        background: #fff;
-        color: #525659;
-        border-radius: 5px;
-        text-decoration: none;
-      }
-      &.active {
-        background: #fff;
-        color: #525659;
-        border-radius: 5px;
-        text-decoration: none;
-      }
-    }
-    a,
-    label {
-      padding: 5px;
-      color: #ccc;
-      text-decoration: none;
-      font-size: 1em;
-      transition: color .3s ease-in-out;
-    }
-
-    ul {
-      padding: 0;
-      margin: 0 auto;
-      width: 100%;
-      list-style: none;
-      text-align: center;
-
-      > li {
-        display: inline-block;
-        padding: .55em .55em;
-        text-align: center;
-        cursor: pointer;
-
-      }
-    }
-  }
-
-  /* small screens */
-  @media screen and (max-width: 44em) {
-    html,
-    body {
-      margin: 0;
-    }
-
-    nav[role="custom-dropdown"] {
-      ul {
-        display: none;
-        height: 100%;
-      }
-
-      label {
-        position: relative;
-        display: block;
-        width: 100%;
-        min-height: 2em;
-        padding: .25em;
-        font-size: 1.8em;
-        margin: 0;
-        border: 0.15em solid rgba(60, 60, 60, 0.2);
-      }
-      label:after {
-        position: absolute;
-        right: .25em;
-        top: -0.2em;
-        content: "\2261";
-        font-size: 1.8em;
-      }
-
-      input[type=checkbox]:checked ~ label:after {
-        color: #222;
-      }
-
-      input[type=checkbox]:checked ~ ul {
-        display: block;
-        background-color: rgba(41, 43, 44, 0.65);
-        position: absolute;
-        height: 126px;
-        z-index: 10;
-        > li {
-          width: 100%;
-          opacity: .8;
-          text-align: left;
-        }
-      }
-    }
-  }
 }
 
-.footer {
-  flex: 0 0 auto;
+footer {
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 18px 0;
   width: 100%;
   background-color: #232322;
   font-size: 13px;
-  color: #666666;
   transition: padding-left 0.5s ease;
 
   nav {
@@ -265,6 +104,10 @@ a {
       span {
         color: #f44336;
         font-size: 26px;
+        &:nth-last-child(1){
+          font-size: 16px;
+          color: #ffffff;
+        }
       }
     }
   }
@@ -273,30 +116,6 @@ a {
       color: #ffffff;
       font-weight: 200;
       margin-top: 12px;
-    }
-  }
-}
-
-.title {
-  display: flex; /* establish flex container */
-  flex-direction: column; /* make main axis vertical */
-  justify-content: center; /* center items vertically, in this case */
-  align-items: center;
-  color: #ffffff;
-  line-height: normal;
-  margin-top: 5%;
-  h1, h2 {
-    margin: auto;
-    text-align: center;
-  }
-  h1 {
-    span {
-      color: #c50000;
-    }
-  }
-  h2 {
-    span {
-
     }
   }
 }

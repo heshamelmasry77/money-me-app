@@ -10,13 +10,12 @@
 </head>
 
 <body ng-app="app">
-<div class="page">
-  <fountain-header></fountain-header>
-  <div class="page-content">
-    <ui-view></ui-view>
-  </div>
-  <fountain-footer></fountain-footer>
-</div>
+
+<fountain-header></fountain-header>
+<main>
+  <ui-view></ui-view>
+</main>
+<fountain-footer></fountain-footer>
 
 </body>
 </html>
