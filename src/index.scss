@@ -22,30 +22,62 @@ a {
   }
 }
 
-header {
-  font-family: "Josefin Sans", sans-serif;
-  background-color: #232322;
-  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  a.logo {
-    color: #ffffff;
-    display: inline-block;
-    font-size: 24px;
-    white-space: nowrap;
-    outline: none !important;
-    line-height: 90px;
-    img {
-      width: 40px;
-      margin-right: 3px;
-    }
-    &:hover {
-      text-decoration: none;
+.header {
+  header {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #232322;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    a.logo {
       color: #ffffff;
+      display: inline-block;
+      font-size: 24px;
+      white-space: nowrap;
+      outline: none !important;
+      line-height: 90px;
+      img {
+        width: 40px;
+        margin-right: 3px;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      &:focus {
+        text-decoration: none;
+      }
     }
-    &:focus {
-      text-decoration: none;
+  }
+  nav {
+    background-color: rgba(0, 0, 0, 0.45);
+    span.navbar-brand {
+      color: #ccc;
+      &:hover {
+        color: #ccc;
+      }
+    }
+    li.nav-item {
+      margin: 0.2em 0.5em;
+      border-radius: 7px;
+      width: max-content;
+      a.nav-link {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 0.2em;
+      }
+      &.active {
+        background: #fff;
+        color: #525659;
+        text-decoration: none;
+      }
+      &:hover {
+        background: #fff;
+        color: #525659;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -69,72 +101,74 @@ main {
   }
 }
 
-footer {
-  font-family: 'Josefin Sans', sans-serif;
-  padding: 0 18px 0;
-  width: 100%;
-  background-color: #232322;
-  font-size: 13px;
-  transition: padding-left 0.5s ease;
+.footer {
+  footer {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 18px 0;
+    width: 100%;
+    background-color: #232322;
+    font-size: 13px;
+    transition: padding-left 0.5s ease;
 
-  nav {
-    height: 100%;
-    width: auto;
-    ul {
-      padding-top: 30px;
-      padding-left: 0;
-    }
-    li, ul {
-      list-style: none;
-      text-align: center;
-    }
-    li {
-      display: inline-block;
-    }
-    a {
-      display: inline-block;
-      color: #ffffff;
-      margin: 0 5px 0 5px;
-      font-weight: 200;
-      font-size: 16px;
-    }
-  }
-  a {
-    &:hover {
-      text-decoration: underline;
-    }
-    &.active {
-      text-decoration: underline;
-    }
-    &:focus {
-      text-decoration: none;
-    }
-  }
-  .credits {
-    p {
-      font-size: 16px;
-      font-weight: 200;
-      color: #ffffff;
-      margin-top: 23px;
-      @media (max-width: 922px) {
-        margin: 0;
+    nav {
+      height: 100%;
+      width: auto;
+      ul {
+        padding-top: 30px;
+        padding-left: 0;
+      }
+      li, ul {
+        list-style: none;
         text-align: center;
       }
-      span {
-        color: #f44336;
-        font-size: 26px;
-        &:nth-last-child(1) {
-          font-size: 16px;
-          color: #ffffff;
+      li {
+        display: inline-block;
+      }
+      a {
+        display: inline-block;
+        color: #ffffff;
+        margin: 0 5px 0 5px;
+        font-weight: 200;
+        font-size: 16px;
+      }
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      &.active {
+        text-decoration: underline;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+    }
+    .credits {
+      p {
+        font-size: 16px;
+        font-weight: 200;
+        color: #ffffff;
+        margin-top: 23px;
+        @media (max-width: 922px) {
+          margin: 0;
+          text-align: center;
+        }
+        span {
+          color: #f44336;
+          font-size: 26px;
+          &:nth-last-child(1) {
+            font-size: 16px;
+            color: #ffffff;
+          }
         }
       }
     }
-  }
-  .copyrights {
-    h2 {
-      color: #ffffff;
-      font-weight: 200;
-      margin-top: 12px;
+    .copyrights {
+      h2 {
+        color: #ffffff;
+        font-weight: 200;
+        margin-top: 12px;
+      }
     }
   }
 }
