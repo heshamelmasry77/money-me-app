@@ -21,4 +21,3 @@ angular
   .component('fountainHeader', header)
   .component('fountainTitle', title)
   .component('fountainFooter', footer);
-angular.bootstrap(document, ['app']);
