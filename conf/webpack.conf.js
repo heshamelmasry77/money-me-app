@@ -62,8 +62,7 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
-      Tether: 'tether',
-      Popper: 'popper.js'
+      Tether: 'tether'
     })
   ],
   devtool: 'source-map',
