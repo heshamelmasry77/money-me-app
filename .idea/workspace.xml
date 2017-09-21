@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af405e0b-e0a0-442a-bca1-7c4bb4a3e89d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/header.html" afterPath="$PROJECT_DIR$/src/app/components/header/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/browsersync.conf.js" afterPath="$PROJECT_DIR$/conf/browsersync.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#465#531#0" expanded="false" />
                 <element signature="e#535#616#0" expanded="false" />
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browsersync.conf.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="browsersync.conf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/browsersync.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -170,8 +169,8 @@
       <find>#5aadbb</find>
       <find>config.assets.compile</find>
       <find>www.</find>
-      <find>560</find>
       <find>navbar-toggleable-md</find>
+      <find>560</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,12 +220,12 @@
         <option value="$PROJECT_DIR$/src/app/modules/details/views/top-bitcoin-mining.html" />
         <option value="$PROJECT_DIR$/src/app/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/conf/browsersync.conf.js" />
         <option value="$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html" />
         <option value="$PROJECT_DIR$/src/app/modules/details/styles/weekly_payouts_styles.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/components/header/header.html" />
         <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/conf/browsersync.conf.js" />
       </list>
     </option>
   </component>
@@ -453,12 +452,12 @@
       <workItem from="1505764900904" duration="12306000" />
       <workItem from="1505918399781" duration="1692000" />
       <workItem from="1505982957691" duration="98000" />
-      <workItem from="1506018820961" duration="2412000" />
+      <workItem from="1506018820961" duration="2497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47784000" />
+    <option name="totallyTimeSpent" value="47869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -829,14 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/browsersync.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/modules/details/views/weekly-payouts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -882,12 +873,20 @@
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#465#531#0" expanded="false" />
             <element signature="e#535#616#0" expanded="false" />
             <element signature="e#637#1200#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/browsersync.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
