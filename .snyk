@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - node-sass > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - karma-coverage > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - karma-phantomjs-launcher > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - karma-webpack > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - karma-webpack > async > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - webpack > async > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - gulp-angular-filesort > ng-dependencies > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - gulp-sass > node-sass > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T02:40:28.314Z'
